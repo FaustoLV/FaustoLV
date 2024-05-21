@@ -86,9 +86,9 @@ function compraProducto() {
     // Ademas se le pregunta si quiere envio a domicilio. Si la respuesta es afirmativa, se le suman 1000 al total final y se muestra con otro alert
 
     alert('Usted esta llevando ' + cantidad + ' productos por un total de ' + '$' + total);
-    envio = confirm('Desea envio a domicilio?(+ $3000)');
+    envio = confirm('Desea envio a domicilio?(+ $5000)');
     if (envio === true) {
-        total = total + 3000;
+        total = total + 5000;
     }
 
     alert('El nuevo total a pagar es de $' + total);
